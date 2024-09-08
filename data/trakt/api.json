@@ -3,6 +3,20 @@
     "watched_at": "",
     "type": "",
     "show": {
+      "title": "Squid Game",
+      "year": 2021,
+      "ids": {
+        "trakt": 162712,
+        "slug": "squid-game",
+        "imdb": "tt10919420",
+        "tmdb": 93405
+      }
+    }
+  },
+  {
+    "watched_at": "",
+    "type": "",
+    "show": {
       "title": "Futurama",
       "year": 1999,
       "ids": {
