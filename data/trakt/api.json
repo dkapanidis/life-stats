@@ -115,6 +115,20 @@
     "watched_at": "",
     "type": "",
     "show": {
+      "title": "Westworld",
+      "year": 2016,
+      "ids": {
+        "trakt": 99718,
+        "slug": "westworld",
+        "imdb": "tt0475784",
+        "tmdb": 63247
+      }
+    }
+  },
+  {
+    "watched_at": "",
+    "type": "",
+    "show": {
       "title": "Game of Thrones",
       "year": 2011,
       "ids": {
@@ -136,6 +150,20 @@
         "slug": "the-walking-dead",
         "imdb": "tt1520211",
         "tmdb": 1402
+      }
+    }
+  },
+  {
+    "watched_at": "",
+    "type": "",
+    "show": {
+      "title": "White Collar",
+      "year": 2009,
+      "ids": {
+        "trakt": 21410,
+        "slug": "white-collar",
+        "imdb": "tt1358522",
+        "tmdb": 21510
       }
     }
   }
