@@ -6,8 +6,9 @@ import (
 	"fmt"
 	"net/http"
 	"os"
-	"time"
 
+	"github.com/dkapanidis/life-stats/src/api/strava"
+	"github.com/dkapanidis/life-stats/src/lib/storage"
 	"github.com/dkapanidis/life-stats/src/models"
 )
 
@@ -36,10 +37,6 @@ func refreshStravaToken(clientID, clientSecret, refreshToken string) (string, er
 		return "", fmt.Errorf("failed to parse token response: %v", err)
 	}
 
-	// Update the refresh token and access token in environment variables or secrets if needed.
-	// fmt.Println("New Access Token:", tokenResp.AccessToken)
-	// fmt.Println("New Refresh Token:", tokenResp.RefreshToken)
-
 	return tokenResp.AccessToken, nil
 }
 
@@ -62,16 +59,8 @@ func fetchStravaData(accessToken string) {
 		return
 	}
 
-	// Pretty-print the JSON data
-	prettyJSON, err := json.MarshalIndent(data, "", "  ")
-	if err != nil {
-		fmt.Println("Failed to format Strava data:", err)
-		return
-	}
-
-	filename := fmt.Sprintf("strava_data_%s.json", time.Now().Format("20060102"))
-	os.WriteFile(filename, prettyJSON, 0644)
-	fmt.Println("Strava data saved to", filename)
+	storage.StoreTo(data, "data/strava/api.json")
+	storage.StoreTo(strava.ToRunnings(data), "data/strava/summary.json")
 }
 
 func main() {
