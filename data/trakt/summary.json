@@ -1,7 +1,8 @@
 [
   {
     "title": "The Lincoln Lawyer",
-    "url": "https://assets.fanart.tv/preview/tv/399909/tvthumb/the-lincoln-lawyer-627154c2184be.jpg"
+    "url": "https://assets.fanart.tv/preview/tv/399909/tvthumb/the-lincoln-lawyer-627154c2184be.jpg",
+    "rating": 6
   },
   {
     "title": "The Queen's Gambit",
@@ -103,23 +104,28 @@
   },
   {
     "title": "Futurama",
-    "url": "https://assets.fanart.tv/preview/tv/73871/tvthumb/futurama-4fe54ded27e1f.jpg"
+    "url": "https://assets.fanart.tv/preview/tv/73871/tvthumb/futurama-4fe54ded27e1f.jpg",
+    "rating": 7
   },
   {
     "title": "The Walking Dead: Daryl Dixon",
-    "url": "https://assets.fanart.tv/preview/tv/427464/tvthumb/the-walking-dead-daryl-dixon-64fde703d9b58.jpg"
+    "url": "https://assets.fanart.tv/preview/tv/427464/tvthumb/the-walking-dead-daryl-dixon-64fde703d9b58.jpg",
+    "rating": 7
   },
   {
     "title": "Yellowstone",
-    "url": "https://assets.fanart.tv/preview/tv/341164/tvthumb/yellowstone-2018-5e6cea297b9d2.jpg"
+    "url": "https://assets.fanart.tv/preview/tv/341164/tvthumb/yellowstone-2018-5e6cea297b9d2.jpg",
+    "rating": 8
   },
   {
     "title": "Snowpiercer",
-    "url": "https://assets.fanart.tv/preview/tv/364928/tvthumb/snowpiercer-6249ad36a2664.jpg"
+    "url": "https://assets.fanart.tv/preview/tv/364928/tvthumb/snowpiercer-6249ad36a2664.jpg",
+    "rating": 6
   },
   {
     "title": "The Acolyte",
-    "url": "https://assets.fanart.tv/preview/tv/393197/tvthumb/the-acolyte-66a17179243a6.jpg"
+    "url": "https://assets.fanart.tv/preview/tv/393197/tvthumb/the-acolyte-66a17179243a6.jpg",
+    "rating": 7
   },
   {
     "title": "Fool Me Once",
@@ -152,7 +158,8 @@
   },
   {
     "title": "Star Trek: Lower Decks",
-    "url": "https://assets.fanart.tv/preview/tv/367138/tvthumb/star-trek-lower-decks-650d09dc2608e.jpg"
+    "url": "https://assets.fanart.tv/preview/tv/367138/tvthumb/star-trek-lower-decks-650d09dc2608e.jpg",
+    "rating": 7
   },
   {
     "title": "Star Trek: Picard",
@@ -268,9 +275,5 @@
     "title": "Doctor Who",
     "url": "https://assets.fanart.tv/preview/tv/78804/tvthumb/doctor-who-2005-50cf6d730a357.jpg",
     "rating": 8
-  },
-  {
-    "title": "Ninja Boy",
-    "rating": 10
   }
 ]

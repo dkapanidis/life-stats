@@ -1,5 +1,124 @@
 [
   {
+    "rated_at": "2024-08-30T15:49:00.000Z",
+    "rating": 6,
+    "show": {
+      "title": "The Lincoln Lawyer",
+      "year": 2022,
+      "ids": {
+        "trakt": 172130,
+        "slug": "the-lincoln-lawyer",
+        "imdb": "tt13833978",
+        "tmdb": 116799,
+        "tvdb": 399909,
+        "tvrage": null
+      }
+    },
+    "type": "show"
+  },
+  {
+    "rated_at": "2024-08-30T15:48:28.000Z",
+    "rating": 7,
+    "show": {
+      "title": "Futurama",
+      "year": 1999,
+      "ids": {
+        "trakt": 614,
+        "slug": "futurama",
+        "imdb": "tt0149460",
+        "tmdb": 615,
+        "tvdb": 73871,
+        "tvrage": null
+      }
+    },
+    "type": "show"
+  },
+  {
+    "rated_at": "2024-08-30T15:48:04.000Z",
+    "rating": 7,
+    "show": {
+      "title": "The Walking Dead: Daryl Dixon",
+      "year": 2023,
+      "ids": {
+        "trakt": 198729,
+        "slug": "the-walking-dead-daryl-dixon",
+        "imdb": "tt13062500",
+        "tmdb": 211684,
+        "tvdb": 427464,
+        "tvrage": null
+      }
+    },
+    "type": "show"
+  },
+  {
+    "rated_at": "2024-08-30T15:47:36.000Z",
+    "rating": 8,
+    "show": {
+      "title": "Yellowstone",
+      "year": 2018,
+      "ids": {
+        "trakt": 126995,
+        "slug": "yellowstone-2018",
+        "imdb": "tt4236770",
+        "tmdb": 73586,
+        "tvdb": 341164,
+        "tvrage": null
+      }
+    },
+    "type": "show"
+  },
+  {
+    "rated_at": "2024-08-30T15:47:16.000Z",
+    "rating": 6,
+    "show": {
+      "title": "Snowpiercer",
+      "year": 2020,
+      "ids": {
+        "trakt": 136863,
+        "slug": "snowpiercer",
+        "imdb": "tt6156584",
+        "tmdb": 79680,
+        "tvdb": 364928,
+        "tvrage": null
+      }
+    },
+    "type": "show"
+  },
+  {
+    "rated_at": "2024-08-30T15:46:48.000Z",
+    "rating": 7,
+    "show": {
+      "title": "The Acolyte",
+      "year": 2024,
+      "ids": {
+        "trakt": 170568,
+        "slug": "the-acolyte",
+        "imdb": "tt12262202",
+        "tmdb": 114479,
+        "tvdb": 393197,
+        "tvrage": null
+      }
+    },
+    "type": "show"
+  },
+  {
+    "rated_at": "2024-08-30T15:46:01.000Z",
+    "rating": 7,
+    "show": {
+      "title": "Star Trek: Lower Decks",
+      "year": 2020,
+      "ids": {
+        "trakt": 138641,
+        "slug": "star-trek-lower-decks",
+        "imdb": "tt9184820",
+        "tmdb": 85948,
+        "tvdb": 367138,
+        "tvrage": null
+      }
+    },
+    "type": "show"
+  },
+  {
     "rated_at": "2024-08-30T15:35:28.000Z",
     "rating": 10,
     "show": {
