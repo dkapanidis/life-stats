@@ -1,5 +1,22 @@
 [
   {
+    "rated_at": "2024-09-07T18:00:11.000Z",
+    "rating": 7,
+    "show": {
+      "title": "Terminator Zero",
+      "year": 2024,
+      "ids": {
+        "trakt": 213064,
+        "slug": "terminator-zero",
+        "imdb": "tt14153236",
+        "tmdb": 239287,
+        "tvdb": 442145,
+        "tvrage": null
+      }
+    },
+    "type": "show"
+  },
+  {
     "rated_at": "2024-08-30T16:00:39.000Z",
     "rating": 8,
     "show": {
