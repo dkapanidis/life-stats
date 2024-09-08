@@ -3,6 +3,20 @@
     "watched_at": "",
     "type": "",
     "show": {
+      "title": "The Queen's Gambit",
+      "year": 2020,
+      "ids": {
+        "trakt": 165792,
+        "slug": "the-queen-s-gambit",
+        "imdb": "tt10048342",
+        "tmdb": 87739
+      }
+    }
+  },
+  {
+    "watched_at": "",
+    "type": "",
+    "show": {
       "title": "Marvel's Iron Fist",
       "year": 2017,
       "ids": {
@@ -479,6 +493,20 @@
     "watched_at": "",
     "type": "",
     "show": {
+      "title": "Ozark",
+      "year": 2017,
+      "ids": {
+        "trakt": 119913,
+        "slug": "ozark",
+        "imdb": "tt5071412",
+        "tmdb": 69740
+      }
+    }
+  },
+  {
+    "watched_at": "",
+    "type": "",
+    "show": {
       "title": "Money Heist",
       "year": 2017,
       "ids": {
@@ -584,6 +612,20 @@
         "slug": "marvel-s-agents-of-s-h-i-e-l-d",
         "imdb": "tt2364582",
         "tmdb": 1403
+      }
+    }
+  },
+  {
+    "watched_at": "",
+    "type": "",
+    "show": {
+      "title": "House of Cards",
+      "year": 2013,
+      "ids": {
+        "trakt": 1416,
+        "slug": "house-of-cards",
+        "imdb": "tt1856010",
+        "tmdb": 1425
       }
     }
   },
