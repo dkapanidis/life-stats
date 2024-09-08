@@ -1,8 +1,8 @@
 [
   {
-    "plays": 3,
-    "last_watched_at": "2024-09-07T14:35:37.000Z",
-    "last_updated_at": "2024-09-07T14:35:38.000Z",
+    "plays": 8,
+    "last_watched_at": "2024-09-08T01:31:44.000Z",
+    "last_updated_at": "2024-09-08T01:31:44.000Z",
     "reset_at": null,
     "show": {
       "title": "Terminator Zero",
@@ -32,6 +32,31 @@
           {
             "last_watched_at": "2024-09-07T14:35:37.000Z",
             "number": 3,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-09-08T01:31:33.000Z",
+            "number": 4,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-09-08T01:31:36.000Z",
+            "number": 5,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-09-08T01:31:39.000Z",
+            "number": 6,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-09-08T01:31:42.000Z",
+            "number": 7,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-09-08T01:31:44.000Z",
+            "number": 8,
             "plays": 1
           }
         ],
