@@ -6,6 +6,65 @@
       "resource_state": 1
     },
     "athlete_count": 1,
+    "average_speed": 2.627,
+    "comment_count": 0,
+    "commute": false,
+    "display_hide_heartrate_option": true,
+    "distance": 5048.5,
+    "elapsed_time": 1933,
+    "end_latlng": [
+      40.593281745910645,
+      22.95985972881317
+    ],
+    "external_id": "65497556173.tcx",
+    "flagged": false,
+    "from_accepted_tag": false,
+    "gear_id": "",
+    "has_heartrate": true,
+    "has_kudoed": false,
+    "heartrate_opt_out": false,
+    "id": 12212037181,
+    "kudos_count": 0,
+    "location_city": "",
+    "location_country": "",
+    "location_state": "",
+    "manual": false,
+    "map": {
+      "id": "a12212037181",
+      "resource_state": 2,
+      "summary_polyline": "cjwvFmjckCMHCJQBEFE^YXDTCLSLUXMDs@pAB?]TQXIREd@CJc@n@a@r@KJMZQNKP[JBTGLWZE@SAIBWh@En@CBODKAKFc@H[`@IB[Aa@GQ@UAOBYKY[QAc@`@KAe@VU@UFK?GHGd@[NM\\UTIAGBU`@[Pm@DC@MVQJQBQA_@L_@X[LINYXYHGHc@ZsBl@SB]XOH}@D}@Ro@DUFa@Vw@@}@^WHcAHeAb@SDs@D_@AQF]Aw@H_AC_ANYGSMMEaCYWGs@CQOOYMESBY?[HY?q@Im@Sa@A]?SFy@Fa@A[@k@KU@u@G[?g@Eg@?[Iu@]MCc@@_@FU?RADCHOFCTH`@C`BJVHr@Lh@BjCKHE\\W^XLDL@RId@a@PALFj@p@RNx@D^CN@VH^ZPDXAx@^\\@VCj@Lb@QN?n@Td@Hj@KZ@pACNDL?|@_@fDk@j@Q\\A|@OxB_@vA[hFkCVK\\G@QLOTGRQPCPWDCFBHAH@?Sb@a@D?HDh@ML?`@e@FQFEh@CPQDWV[RAH@FHFKFED@DHT@JOF?JI`@GXS`@Gx@B^FX`@JFJ?NQT_@LCBKE[HKHa@D?FHBKJCFGBA?QV_@VGFEF@HBCADAH_@LOAWXUVc@FORSLYDCL@HMFSJU@OHGJUTUNWHG@QHGL_@VEFEZCC@B}@FMHc@FKDE"
+    },
+    "max_speed": 3.664,
+    "moving_time": 1922,
+    "name": "Lunch Run",
+    "photo_count": 0,
+    "pr_count": 0,
+    "private": false,
+    "resource_state": 2,
+    "sport_type": "Run",
+    "start_date": "2024-08-22T09:39:52Z",
+    "start_date_local": "2024-08-22T12:39:52Z",
+    "start_latlng": [
+      40.593140602111816,
+      22.9599187374115
+    ],
+    "timezone": "(GMT+02:00) Europe/Athens",
+    "total_elevation_gain": 11,
+    "total_photo_count": 0,
+    "trainer": false,
+    "type": "Run",
+    "upload_id": 13019309902,
+    "utc_offset": 10800,
+    "visibility": "followers_only",
+    "workout_type": 0
+  },
+  {
+    "achievement_count": 0,
+    "athlete": {
+      "id": 118222457,
+      "resource_state": 1
+    },
+    "athlete_count": 1,
     "average_speed": 2.222,
     "comment_count": 0,
     "commute": false,
@@ -1690,65 +1749,6 @@
     "upload_id": 9819347061,
     "utc_offset": 7200,
     "visibility": "followers_only",
-    "workout_type": 0
-  },
-  {
-    "achievement_count": 0,
-    "athlete": {
-      "id": 118222457,
-      "resource_state": 1
-    },
-    "athlete_count": 1,
-    "average_speed": 2.202,
-    "comment_count": 0,
-    "commute": false,
-    "display_hide_heartrate_option": true,
-    "distance": 3738.8,
-    "elapsed_time": 1717,
-    "end_latlng": [
-      41.38380753038858,
-      2.195329134292258
-    ],
-    "external_id": "55918028512.tcx",
-    "flagged": false,
-    "from_accepted_tag": false,
-    "gear_id": "",
-    "has_heartrate": true,
-    "has_kudoed": false,
-    "heartrate_opt_out": false,
-    "id": 9105876686,
-    "kudos_count": 0,
-    "location_city": "",
-    "location_country": "",
-    "location_state": "",
-    "manual": false,
-    "map": {
-      "id": "a9105876686",
-      "resource_state": 2,
-      "summary_polyline": "iyq{Fe{kL^r@v@~@XRnAl@rAlAhCjAdAl@bA`@h@N`@ZZFh@\\v@Zf@^dAf@`@Zl@\\jAh@^Zj@XpA|@b@JTBZJL@\\RPX\\Jd@TZLV\\h@R|@d@`@H\\Bb@^NRJHXHJ?p@JxA\\LJNRXd@b@L\\V`@@h@Vn@J`CTNDVPpADVBXJP@lCHfAHRFLLPKh@GPLd@HZCn@OdBiA`@KVWJA?HKRM`@MNMBSGe@e@ARAF_@NSXWNQD_@CS@w@Oa@C[?a@Cu@Bu@KYIe@A]Mc@I]?mAOq@Ak@Oi@Aw@KoASkAEWG[KUUUe@a@g@MCOBKAMGKOECe@Ai@IKQUOk@]q@QEGKCMSa@Uq@[yAc@WOm@O{@a@o@q@KIIMg@a@QEm@YQEUOOC_@W[Ec@S]Ie@QIG]g@wAa@s@a@c@QUOMSSO]I[OQYcAm@s@]mA]{Aw@[UUUOICMEEUM"
-    },
-    "max_speed": 4.26,
-    "moving_time": 1698,
-    "name": "Afternoon Run",
-    "photo_count": 0,
-    "pr_count": 0,
-    "private": false,
-    "resource_state": 2,
-    "sport_type": "Run",
-    "start_date": "2023-05-20T12:02:13Z",
-    "start_date_local": "2023-05-20T14:02:13Z",
-    "start_latlng": [
-      41.38405066320062,
-      2.195876011611921
-    ],
-    "timezone": "(GMT+01:00) Europe/Madrid",
-    "total_elevation_gain": 3.8,
-    "total_photo_count": 0,
-    "trainer": false,
-    "type": "Run",
-    "upload_id": 9768149892,
-    "utc_offset": 7200,
-    "visibility": "everyone",
     "workout_type": 0
   }
 ]
