@@ -40,5 +40,33 @@
         "tmdb": 615
       }
     }
+  },
+  {
+    "watched_at": "",
+    "type": "",
+    "show": {
+      "title": "The Boys",
+      "year": 2019,
+      "ids": {
+        "trakt": 139960,
+        "slug": "the-boys-2019",
+        "imdb": "tt1190634",
+        "tmdb": 76479
+      }
+    }
+  },
+  {
+    "watched_at": "",
+    "type": "",
+    "show": {
+      "title": "Game of Thrones",
+      "year": 2011,
+      "ids": {
+        "trakt": 1390,
+        "slug": "game-of-thrones",
+        "imdb": "tt0944947",
+        "tmdb": 1399
+      }
+    }
   }
 ]
