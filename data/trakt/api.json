@@ -745,6 +745,20 @@
     "watched_at": "",
     "type": "",
     "show": {
+      "title": "Dexter",
+      "year": 2006,
+      "ids": {
+        "trakt": 1396,
+        "slug": "dexter",
+        "imdb": "tt0773262",
+        "tmdb": 1405
+      }
+    }
+  },
+  {
+    "watched_at": "",
+    "type": "",
+    "show": {
       "title": "Doctor Who",
       "year": 2005,
       "ids": {
