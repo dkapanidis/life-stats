@@ -21,13 +21,10 @@ jobs:
         with:
           go-version: '1.x'
 
-      - name: Build Go app
-        run: go build -o fetch-data src/fetch_data.go
-
       - name: Fetch Strava data
         env:
           STRAVA_ACCESS_TOKEN: ${{ secrets.STRAVA_ACCESS_TOKEN }}
-        run: ./fetch-data
+        run: go run ./src/fetch-data
 
       - name: Commit and push changes
         run: |
