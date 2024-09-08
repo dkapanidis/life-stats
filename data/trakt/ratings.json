@@ -1,5 +1,22 @@
 [
   {
+    "rated_at": "2024-08-30T16:00:39.000Z",
+    "rating": 8,
+    "show": {
+      "title": "MacGyver",
+      "year": 1985,
+      "ids": {
+        "trakt": 2856,
+        "slug": "macgyver",
+        "imdb": "tt0088559",
+        "tmdb": 2875,
+        "tvdb": 77847,
+        "tvrage": null
+      }
+    },
+    "type": "show"
+  },
+  {
     "rated_at": "2024-08-30T15:49:00.000Z",
     "rating": 6,
     "show": {
