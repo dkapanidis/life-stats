@@ -8,6 +8,7 @@ import (
 	"os"
 
 	"github.com/dkapanidis/life-stats/src/api/strava"
+	"github.com/dkapanidis/life-stats/src/api/trakt"
 	"github.com/dkapanidis/life-stats/src/lib/storage"
 	"github.com/dkapanidis/life-stats/src/models"
 )
@@ -77,4 +78,7 @@ func main() {
 
 	// Fetch data using the refreshed access token
 	fetchStravaData(accessToken)
+
+	// Trakt.tv
+	trakt.FetchTraktData()
 }

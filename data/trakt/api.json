@@ -1,0 +1,30 @@
+[
+  {
+    "watched_at": "",
+    "type": "",
+    "show": {
+      "title": "The Acolyte",
+      "year": 2024,
+      "ids": {
+        "trakt": 170568,
+        "slug": "the-acolyte",
+        "imdb": "tt12262202",
+        "tmdb": 114479
+      }
+    }
+  },
+  {
+    "watched_at": "",
+    "type": "",
+    "show": {
+      "title": "Futurama",
+      "year": 1999,
+      "ids": {
+        "trakt": 614,
+        "slug": "futurama",
+        "imdb": "tt0149460",
+        "tmdb": 615
+      }
+    }
+  }
+]
