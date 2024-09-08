@@ -68,6 +68,7 @@ func fetchTraktData(accessToken string) {
 	}
 
 	storage.StoreTo(data, "data/trakt/api.json")
+	storage.StoreTo(ToShows(data), "data/trakt/summary.json")
 }
 
 func Sync() {
