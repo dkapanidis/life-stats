@@ -1,8 +1,8 @@
 [
   {
-    "plays": 2,
-    "last_watched_at": "2024-09-07T12:53:07.000Z",
-    "last_updated_at": "2024-09-07T12:53:08.000Z",
+    "plays": 3,
+    "last_watched_at": "2024-09-07T14:35:37.000Z",
+    "last_updated_at": "2024-09-07T14:35:38.000Z",
     "reset_at": null,
     "show": {
       "title": "Terminator Zero",
@@ -27,6 +27,11 @@
           {
             "last_watched_at": "2024-09-07T12:53:07.000Z",
             "number": 2,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-09-07T14:35:37.000Z",
+            "number": 3,
             "plays": 1
           }
         ],
