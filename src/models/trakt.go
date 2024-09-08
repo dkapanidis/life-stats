@@ -15,6 +15,13 @@ type IDs struct {
 	TVRage *string `json:"tvrage"`
 }
 
+type RatingItem struct {
+	RatedAt string     `json:"rated_at"`
+	Rating  int        `json:"rating"`
+	Show    *TraktShow `json:"show,omitempty"`
+	Type    string     `json:"type"`
+}
+
 type WatchedItem struct {
 	Plays         int            `json:"plays"`
 	LastWatchedAt string         `json:"last_watched_at"`

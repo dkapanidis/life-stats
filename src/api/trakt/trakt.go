@@ -45,22 +45,14 @@ func refreshTraktToken(clientID, clientSecret, refreshToken string) (string, err
 	return "", nil
 }
 
-func fetchTraktData(accessToken string) {
-	url := "https://api.trakt.tv/sync/watched/shows" // Adjust this endpoint based on what you need
-	req, _ := http.NewRequest("GET", url, nil)
-	req.Header.Add("Authorization", "Bearer "+accessToken)
-	req.Header.Add("trakt-api-version", "2")
-	req.Header.Add("trakt-api-key", os.Getenv("TRAKT_CLIENT_ID"))
-	req.Header.Add("Content-type", "application/json")
-
-	client := &http.Client{}
-	resp, err := client.Do(req)
+func fetchTraktData() {
+	resp, err := fetch("/sync/watched/shows")
 	if err != nil {
 		fmt.Println("Failed to fetch Trakt data:", err)
 		return
 	}
 	defer resp.Body.Close()
-	logrus.Info(resp.Status)
+
 	var data = make([]models.WatchedItem, 0)
 	if err := json.NewDecoder(resp.Body).Decode(&data); err != nil {
 		fmt.Println("Failed to parse Trakt JSON:", err)
@@ -68,13 +60,47 @@ func fetchTraktData(accessToken string) {
 	}
 
 	storage.StoreTo(data, "data/trakt/api.json")
-	storage.StoreTo(ToShows(data), "data/trakt/summary.json")
+
+	ratings, err := fetchTraktRatings()
+	if err != nil {
+		fmt.Println("Failed to fetch trakt ratings:", err)
+		return
+	}
+
+	storage.StoreTo(ToShows(data, ratings), "data/trakt/summary.json")
+}
+
+func fetchTraktRatings() ([]models.RatingItem, error) {
+	resp, err := fetch("/users/me/ratings/shows")
+	if err != nil {
+		fmt.Println("Failed to fetch Trakt data:", err)
+		return []models.RatingItem{}, err
+	}
+	defer resp.Body.Close()
+
+	var data = make([]models.RatingItem, 0)
+	if err := json.NewDecoder(resp.Body).Decode(&data); err != nil {
+		fmt.Println("Failed to parse Trakt JSON:", err)
+		return []models.RatingItem{}, err
+	}
+
+	storage.StoreTo(data, "data/trakt/ratings.json")
+	return data, nil
+}
+
+func fetch(url string) (*http.Response, error) {
+	accessToken := os.Getenv("TRAKT_ACCESS_TOKEN")
+
+	req, _ := http.NewRequest("GET", "https://api.trakt.tv"+url, nil)
+	req.Header.Add("Authorization", "Bearer "+accessToken)
+	req.Header.Add("trakt-api-version", "2")
+	req.Header.Add("trakt-api-key", os.Getenv("TRAKT_CLIENT_ID"))
+	req.Header.Add("Content-type", "application/json")
+
+	client := &http.Client{}
+	return client.Do(req)
 }
 
 func Sync() {
-	// Variables
-	accessToken := os.Getenv("TRAKT_ACCESS_TOKEN")
-
-	// Fetch data
-	fetchTraktData(accessToken)
+	fetchTraktData()
 }
