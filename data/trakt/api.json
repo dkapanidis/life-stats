@@ -3,6 +3,20 @@
     "watched_at": "",
     "type": "",
     "show": {
+      "title": "The Lincoln Lawyer",
+      "year": 2022,
+      "ids": {
+        "trakt": 172130,
+        "slug": "the-lincoln-lawyer",
+        "imdb": "tt13833978",
+        "tmdb": 116799
+      }
+    }
+  },
+  {
+    "watched_at": "",
+    "type": "",
+    "show": {
       "title": "The Queen's Gambit",
       "year": 2020,
       "ids": {
