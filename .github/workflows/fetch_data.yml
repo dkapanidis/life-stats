@@ -26,19 +26,15 @@ jobs:
           STRAVA_ACCESS_TOKEN: ${{ secrets.STRAVA_ACCESS_TOKEN }}
         run: go run ./src/fetch_data.go
 
-      - name: Check for changes
-        run: |
-          git add .
-          if git diff-index --quiet HEAD --; then
-            echo "No changes detected, nothing to commit."
-            exit 0
-          fi
-
       - name: Commit and push changes
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Action"
           git add .
+          if git diff-index --quiet HEAD --; then
+            echo "No changes detected, nothing to commit."
+            exit 0
+          fi
           git commit -m "Update Strava data"
           git push origin main
 
