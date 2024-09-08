@@ -55,7 +55,7 @@
     "type": "Run",
     "upload_id": 13159042784,
     "utc_offset": 7200,
-    "visibility": "followers_only",
+    "visibility": "everyone",
     "workout_type": 0
   },
   {
@@ -114,7 +114,7 @@
     "type": "Run",
     "upload_id": 13102928377,
     "utc_offset": 10800,
-    "visibility": "followers_only",
+    "visibility": "everyone",
     "workout_type": 0
   },
   {
@@ -173,11 +173,11 @@
     "type": "Run",
     "upload_id": 13040442649,
     "utc_offset": 10800,
-    "visibility": "followers_only",
+    "visibility": "everyone",
     "workout_type": 0
   },
   {
-    "achievement_count": 0,
+    "achievement_count": 1,
     "athlete": {
       "id": 118222457,
       "resource_state": 1
@@ -215,7 +215,7 @@
     "moving_time": 1922,
     "name": "Lunch Run",
     "photo_count": 0,
-    "pr_count": 0,
+    "pr_count": 1,
     "private": false,
     "resource_state": 2,
     "sport_type": "Run",
@@ -232,7 +232,7 @@
     "type": "Run",
     "upload_id": 13019309902,
     "utc_offset": 10800,
-    "visibility": "followers_only",
+    "visibility": "everyone",
     "workout_type": 0
   },
   {
@@ -285,7 +285,7 @@
     "type": "Run",
     "upload_id": 0,
     "utc_offset": 0,
-    "visibility": "followers_only",
+    "visibility": "everyone",
     "workout_type": 0
   },
   {
@@ -344,7 +344,7 @@
     "type": "Run",
     "upload_id": 12867343564,
     "utc_offset": -21600,
-    "visibility": "followers_only",
+    "visibility": "everyone",
     "workout_type": 0
   },
   {
@@ -386,7 +386,7 @@
     "moving_time": 2562,
     "name": "Afternoon Run",
     "photo_count": 0,
-    "pr_count": 1,
+    "pr_count": 0,
     "private": false,
     "resource_state": 2,
     "sport_type": "Run",
@@ -403,7 +403,7 @@
     "type": "Run",
     "upload_id": 12833681825,
     "utc_offset": -21600,
-    "visibility": "followers_only",
+    "visibility": "everyone",
     "workout_type": 0
   },
   {
@@ -462,7 +462,7 @@
     "type": "Run",
     "upload_id": 12789906357,
     "utc_offset": -21600,
-    "visibility": "followers_only",
+    "visibility": "everyone",
     "workout_type": 0
   },
   {
@@ -515,7 +515,7 @@
     "type": "Run",
     "upload_id": 0,
     "utc_offset": 0,
-    "visibility": "followers_only",
+    "visibility": "everyone",
     "workout_type": 0
   },
   {
@@ -574,7 +574,7 @@
     "type": "Run",
     "upload_id": 12754786895,
     "utc_offset": -21600,
-    "visibility": "followers_only",
+    "visibility": "everyone",
     "workout_type": 0
   },
   {
