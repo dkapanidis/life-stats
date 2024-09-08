@@ -21,10 +21,9 @@ jobs:
       - name: Build Go app
         run: go build -o fetch-data src/fetch_data.go
 
-      - name: Fetch Strava and Fitbit data
+      - name: Fetch Strava data
         env:
           STRAVA_ACCESS_TOKEN: ${{ secrets.STRAVA_ACCESS_TOKEN }}
-          FITBIT_ACCESS_TOKEN: ${{ secrets.FITBIT_ACCESS_TOKEN }}
         run: ./fetch-data
 
       - name: Commit and push changes
