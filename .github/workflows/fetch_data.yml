@@ -28,7 +28,7 @@ jobs:
           STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
           TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
           TRAKT_ACCESS_TOKEN: ${{ secrets.TRAKT_ACCESS_TOKEN }}
-        run: go run ./src/fetch_data.go
+        run: go run cmd/fetch-data/fetch_data.go
 
       - name: Commit and push changes
         run: |

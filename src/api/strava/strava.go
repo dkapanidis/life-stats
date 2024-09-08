@@ -1,4 +1,4 @@
-package main
+package strava
 
 import (
 	"bytes"
@@ -7,8 +7,6 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/dkapanidis/life-stats/src/api/strava"
-	"github.com/dkapanidis/life-stats/src/api/trakt"
 	"github.com/dkapanidis/life-stats/src/lib/storage"
 	"github.com/dkapanidis/life-stats/src/models"
 )
@@ -61,10 +59,11 @@ func fetchStravaData(accessToken string) {
 	}
 
 	storage.StoreTo(data, "data/strava/api.json")
-	storage.StoreTo(strava.ToRunnings(data), "data/strava/summary.json")
+	storage.StoreTo(ToRunnings(data), "data/strava/summary.json")
 }
 
-func main() {
+func Sync() {
+	// Variables
 	clientID := os.Getenv("STRAVA_CLIENT_ID")
 	clientSecret := os.Getenv("STRAVA_CLIENT_SECRET")
 	refreshToken := os.Getenv("STRAVA_REFRESH_TOKEN")
@@ -76,9 +75,6 @@ func main() {
 		return
 	}
 
-	// Fetch data using the refreshed access token
+	// Fetch data
 	fetchStravaData(accessToken)
-
-	// Trakt.tv
-	trakt.FetchTraktData()
 }

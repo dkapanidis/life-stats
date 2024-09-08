@@ -12,7 +12,7 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
-func RefreshTraktToken(clientID, clientSecret, refreshToken string) (string, error) {
+func refreshTraktToken(clientID, clientSecret, refreshToken string) (string, error) {
 	url := "https://api.trakt.tv/oauth/token"
 	body := map[string]string{
 		"client_id":     clientID,
@@ -45,9 +45,7 @@ func RefreshTraktToken(clientID, clientSecret, refreshToken string) (string, err
 	return "", nil
 }
 
-func FetchTraktData() {
-	accessToken := os.Getenv("TRAKT_ACCESS_TOKEN")
-
+func fetchTraktData(accessToken string) {
 	url := "https://api.trakt.tv/sync/watched/shows" // Adjust this endpoint based on what you need
 	req, _ := http.NewRequest("GET", url, nil)
 	req.Header.Add("Authorization", "Bearer "+accessToken)
@@ -70,4 +68,12 @@ func FetchTraktData() {
 	}
 
 	storage.StoreTo(data, "data/trakt/api.json")
+}
+
+func Sync() {
+	// Variables
+	accessToken := os.Getenv("TRAKT_ACCESS_TOKEN")
+
+	// Fetch data
+	fetchTraktData(accessToken)
 }
