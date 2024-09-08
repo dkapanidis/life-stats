@@ -3,7 +3,6 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"net/http"
 	"os"
 	"time"
@@ -29,13 +28,25 @@ func fetchStravaData(accessToken string) {
 	}
 	defer resp.Body.Close()
 
-	body, _ := ioutil.ReadAll(resp.Body)
+	// body, _ := ioutil.ReadAll(resp.Body)
 
-	var activities []StravaActivity
-	json.Unmarshal(body, &activities)
+	// var activities []StravaActivity
+	// json.Unmarshal(body, &activities)
+	var data interface{}
+	if err := json.NewDecoder(resp.Body).Decode(&data); err != nil {
+		fmt.Println("Failed to parse Strava JSON:", err)
+		return
+	}
+
+	// Pretty-print the JSON data
+	prettyJSON, err := json.MarshalIndent(data, "", "  ")
+	if err != nil {
+		fmt.Println("Failed to format Strava data:", err)
+		return
+	}
 
 	filename := fmt.Sprintf("strava_data_%s.json", time.Now().Format("20060102"))
-	ioutil.WriteFile(filename, body, 0644)
+	os.WriteFile(filename, prettyJSON, 0644)
 	fmt.Println("Strava data saved to", filename)
 }
 
