@@ -24,7 +24,7 @@ jobs:
       - name: Fetch Strava data
         env:
           STRAVA_ACCESS_TOKEN: ${{ secrets.STRAVA_ACCESS_TOKEN }}
-        run: go run ./src/fetch-data
+        run: go run ./src/fetch_data.go
 
       - name: Commit and push changes
         run: |
