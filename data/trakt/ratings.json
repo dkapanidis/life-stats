@@ -1,5 +1,22 @@
 [
   {
+    "rated_at": "2024-08-30T15:35:28.000Z",
+    "rating": 10,
+    "show": {
+      "title": "Ninja Boy",
+      "year": 1983,
+      "ids": {
+        "trakt": 64045,
+        "slug": "ninja-boy",
+        "imdb": "tt0903437",
+        "tmdb": 66016,
+        "tvdb": 174721,
+        "tvrage": null
+      }
+    },
+    "type": "show"
+  },
+  {
     "rated_at": "2024-08-24T13:50:03.000Z",
     "rating": 8,
     "show": {
