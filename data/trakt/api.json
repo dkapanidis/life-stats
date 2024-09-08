@@ -3,6 +3,20 @@
     "watched_at": "",
     "type": "",
     "show": {
+      "title": "Snowpiercer",
+      "year": 2020,
+      "ids": {
+        "trakt": 136863,
+        "slug": "snowpiercer",
+        "imdb": "tt6156584",
+        "tmdb": 79680
+      }
+    }
+  },
+  {
+    "watched_at": "",
+    "type": "",
+    "show": {
       "title": "The Acolyte",
       "year": 2024,
       "ids": {
