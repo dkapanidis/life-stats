@@ -3,6 +3,20 @@
     "watched_at": "",
     "type": "",
     "show": {
+      "title": "Futurama",
+      "year": 1999,
+      "ids": {
+        "trakt": 614,
+        "slug": "futurama",
+        "imdb": "tt0149460",
+        "tmdb": 615
+      }
+    }
+  },
+  {
+    "watched_at": "",
+    "type": "",
+    "show": {
       "title": "The Walking Dead: Daryl Dixon",
       "year": 2023,
       "ids": {
@@ -52,20 +66,6 @@
         "slug": "the-acolyte",
         "imdb": "tt12262202",
         "tmdb": 114479
-      }
-    }
-  },
-  {
-    "watched_at": "",
-    "type": "",
-    "show": {
-      "title": "Futurama",
-      "year": 1999,
-      "ids": {
-        "trakt": 614,
-        "slug": "futurama",
-        "imdb": "tt0149460",
-        "tmdb": 615
       }
     }
   },
