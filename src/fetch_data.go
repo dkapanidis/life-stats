@@ -4,18 +4,12 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"net/http"
 	"os"
 	"time"
-)
 
-// Structs for token handling
-type TokenResponse struct {
-	AccessToken  string `json:"access_token"`
-	RefreshToken string `json:"refresh_token"`
-	ExpiresAt    int64  `json:"expires_at"`
-}
+	"github.com/dkapanidis/life-stats/src/models"
+)
 
 func refreshStravaToken(clientID, clientSecret, refreshToken string) (string, error) {
 	url := "https://www.strava.com/api/v3/oauth/token"
@@ -37,7 +31,7 @@ func refreshStravaToken(clientID, clientSecret, refreshToken string) (string, er
 	}
 	defer resp.Body.Close()
 
-	var tokenResp TokenResponse
+	var tokenResp models.TokenResponse
 	if err := json.NewDecoder(resp.Body).Decode(&tokenResp); err != nil {
 		return "", fmt.Errorf("failed to parse token response: %v", err)
 	}
@@ -62,7 +56,7 @@ func fetchStravaData(accessToken string) {
 	}
 	defer resp.Body.Close()
 
-	var data interface{}
+	var data = make([]models.StravaActivity, 0)
 	if err := json.NewDecoder(resp.Body).Decode(&data); err != nil {
 		fmt.Println("Failed to parse Strava JSON:", err)
 		return
@@ -76,7 +70,7 @@ func fetchStravaData(accessToken string) {
 	}
 
 	filename := fmt.Sprintf("strava_data_%s.json", time.Now().Format("20060102"))
-	ioutil.WriteFile(filename, prettyJSON, 0644)
+	os.WriteFile(filename, prettyJSON, 0644)
 	fmt.Println("Strava data saved to", filename)
 }
 
