@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GH_PAT }}
 
       - name: Set up Go
         uses: actions/setup-go@v4
@@ -27,8 +29,6 @@ jobs:
         run: ./fetch-data
 
       - name: Commit and push changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use the default GitHub token
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Action"
