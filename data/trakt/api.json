@@ -3,6 +3,34 @@
     "watched_at": "",
     "type": "",
     "show": {
+      "title": "The Walking Dead: Daryl Dixon",
+      "year": 2023,
+      "ids": {
+        "trakt": 198729,
+        "slug": "the-walking-dead-daryl-dixon",
+        "imdb": "tt13062500",
+        "tmdb": 211684
+      }
+    }
+  },
+  {
+    "watched_at": "",
+    "type": "",
+    "show": {
+      "title": "Yellowstone",
+      "year": 2018,
+      "ids": {
+        "trakt": 126995,
+        "slug": "yellowstone-2018",
+        "imdb": "tt4236770",
+        "tmdb": 73586
+      }
+    }
+  },
+  {
+    "watched_at": "",
+    "type": "",
+    "show": {
       "title": "Snowpiercer",
       "year": 2020,
       "ids": {
@@ -45,6 +73,20 @@
     "watched_at": "",
     "type": "",
     "show": {
+      "title": "Star Trek: Lower Decks",
+      "year": 2020,
+      "ids": {
+        "trakt": 138641,
+        "slug": "star-trek-lower-decks",
+        "imdb": "tt9184820",
+        "tmdb": 85948
+      }
+    }
+  },
+  {
+    "watched_at": "",
+    "type": "",
+    "show": {
       "title": "The Boys",
       "year": 2019,
       "ids": {
@@ -66,6 +108,20 @@
         "slug": "game-of-thrones",
         "imdb": "tt0944947",
         "tmdb": 1399
+      }
+    }
+  },
+  {
+    "watched_at": "",
+    "type": "",
+    "show": {
+      "title": "The Walking Dead",
+      "year": 2010,
+      "ids": {
+        "trakt": 1393,
+        "slug": "the-walking-dead",
+        "imdb": "tt1520211",
+        "tmdb": 1402
       }
     }
   }
