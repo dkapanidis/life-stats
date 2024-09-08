@@ -1,0 +1,10 @@
+{
+  "errors": [
+    {
+      "code": "invalid",
+      "field": "access_token",
+      "resource": "Athlete"
+    }
+  ],
+  "message": "Authorization Error"
+}
