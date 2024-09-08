@@ -1,5 +1,35 @@
 [
   {
+    "plays": 1,
+    "last_watched_at": "2024-09-07T12:25:13.000Z",
+    "last_updated_at": "2024-09-07T12:25:14.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "Terminator Zero",
+      "year": 2024,
+      "ids": {
+        "trakt": 213064,
+        "slug": "terminator-zero",
+        "imdb": "tt14153236",
+        "tmdb": 239287,
+        "tvdb": 442145,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "episodes": [
+          {
+            "last_watched_at": "2024-09-07T12:25:13.000Z",
+            "number": 1,
+            "plays": 1
+          }
+        ],
+        "number": 1
+      }
+    ]
+  },
+  {
     "plays": 8,
     "last_watched_at": "2024-09-05T15:51:24.000Z",
     "last_updated_at": "2024-09-05T15:51:25.000Z",
