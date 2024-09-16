@@ -820,9 +820,9 @@
     ]
   },
   {
-    "plays": 41,
+    "plays": 51,
     "last_watched_at": "2024-08-24T10:07:35.000Z",
-    "last_updated_at": "2024-08-24T10:07:36.000Z",
+    "last_updated_at": "2024-09-16T19:53:54.000Z",
     "reset_at": null,
     "show": {
       "title": "Fargo",
@@ -1061,6 +1061,61 @@
           }
         ],
         "number": 4
+      },
+      {
+        "episodes": [
+          {
+            "last_watched_at": "2023-11-21T00:00:00.000Z",
+            "number": 1,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-11-21T00:00:00.000Z",
+            "number": 2,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-11-21T00:00:00.000Z",
+            "number": 3,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-11-21T00:00:00.000Z",
+            "number": 4,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-11-21T00:00:00.000Z",
+            "number": 5,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-11-21T00:00:00.000Z",
+            "number": 6,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-11-21T00:00:00.000Z",
+            "number": 7,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-11-21T00:00:00.000Z",
+            "number": 8,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-11-21T00:00:00.000Z",
+            "number": 9,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-11-21T00:00:00.000Z",
+            "number": 10,
+            "plays": 1
+          }
+        ],
+        "number": 5
       }
     ]
   },
@@ -3015,9 +3070,9 @@
     ]
   },
   {
-    "plays": 32,
+    "plays": 33,
     "last_watched_at": "2024-08-23T11:12:48.000Z",
-    "last_updated_at": "2024-08-23T11:12:49.000Z",
+    "last_updated_at": "2024-09-16T19:57:46.000Z",
     "reset_at": null,
     "show": {
       "title": "Snowpiercer",
@@ -3207,6 +3262,11 @@
           {
             "last_watched_at": "2024-08-23T11:12:48.000Z",
             "number": 2,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-08-04T00:00:00.000Z",
+            "number": 3,
             "plays": 1
           }
         ],
