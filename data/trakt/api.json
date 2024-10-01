@@ -1,8 +1,8 @@
 [
   {
-    "plays": 8,
-    "last_watched_at": "2024-09-30T23:13:05.000Z",
-    "last_updated_at": "2024-09-30T23:13:06.000Z",
+    "plays": 9,
+    "last_watched_at": "2024-09-30T23:57:32.000Z",
+    "last_updated_at": "2024-09-30T23:57:33.000Z",
     "reset_at": null,
     "show": {
       "title": "Doctor Who",
@@ -62,6 +62,11 @@
           {
             "last_watched_at": "2024-09-30T23:13:05.000Z",
             "number": 4,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-09-30T23:57:32.000Z",
+            "number": 5,
             "plays": 1
           }
         ],
