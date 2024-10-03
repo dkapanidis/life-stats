@@ -1,5 +1,22 @@
 [
   {
+    "rated_at": "2024-10-02T23:58:26.000Z",
+    "rating": 5,
+    "show": {
+      "title": "Doctor Who",
+      "year": 2024,
+      "ids": {
+        "trakt": 213360,
+        "slug": "doctor-who-2024",
+        "imdb": "tt31433814",
+        "tmdb": 239770,
+        "tvdb": 449991,
+        "tvrage": null
+      }
+    },
+    "type": "show"
+  },
+  {
     "rated_at": "2024-09-07T18:00:11.000Z",
     "rating": 7,
     "show": {
