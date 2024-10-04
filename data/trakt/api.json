@@ -3540,6 +3540,246 @@
     ]
   },
   {
+    "plays": 40,
+    "last_watched_at": "2023-09-07T00:00:00.000Z",
+    "last_updated_at": "2024-10-04T12:17:42.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "Star Trek: Lower Decks",
+      "year": 2020,
+      "ids": {
+        "trakt": 138641,
+        "slug": "star-trek-lower-decks",
+        "imdb": "tt9184820",
+        "tmdb": 85948,
+        "tvdb": 367138,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "episodes": [
+          {
+            "last_watched_at": "2020-08-06T00:00:00.000Z",
+            "number": 1,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 2,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 3,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 4,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 5,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 6,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 7,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 8,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 9,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 10,
+            "plays": 1
+          }
+        ],
+        "number": 1
+      },
+      {
+        "episodes": [
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 1,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 2,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 3,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 4,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 5,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 6,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 7,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 8,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 9,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 10,
+            "plays": 1
+          }
+        ],
+        "number": 2
+      },
+      {
+        "episodes": [
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 1,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 2,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 3,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 4,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 5,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 6,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 7,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 8,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 9,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 10,
+            "plays": 1
+          }
+        ],
+        "number": 3
+      },
+      {
+        "episodes": [
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 1,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 2,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 3,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 4,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 5,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 6,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 7,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 8,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 9,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2023-09-07T00:00:00.000Z",
+            "number": 10,
+            "plays": 1
+          }
+        ],
+        "number": 4
+      }
+    ]
+  },
+  {
     "plays": 6,
     "last_watched_at": "2023-06-21T00:00:00.000Z",
     "last_updated_at": "2024-08-24T09:27:10.000Z",
@@ -3842,36 +4082,6 @@
           {
             "last_watched_at": "2021-01-15T00:00:00.000Z",
             "number": 9,
-            "plays": 1
-          }
-        ],
-        "number": 1
-      }
-    ]
-  },
-  {
-    "plays": 1,
-    "last_watched_at": "2020-08-06T00:00:00.000Z",
-    "last_updated_at": "2024-08-23T11:37:27.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "Star Trek: Lower Decks",
-      "year": 2020,
-      "ids": {
-        "trakt": 138641,
-        "slug": "star-trek-lower-decks",
-        "imdb": "tt9184820",
-        "tmdb": 85948,
-        "tvdb": 367138,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "episodes": [
-          {
-            "last_watched_at": "2020-08-06T00:00:00.000Z",
-            "number": 1,
             "plays": 1
           }
         ],
