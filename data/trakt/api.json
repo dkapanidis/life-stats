@@ -1,8 +1,8 @@
 [
   {
-    "plays": 2,
-    "last_watched_at": "2024-10-05T21:55:07.000Z",
-    "last_updated_at": "2024-10-05T21:55:07.000Z",
+    "plays": 4,
+    "last_watched_at": "2024-10-08T21:27:58.000Z",
+    "last_updated_at": "2024-10-08T21:27:59.000Z",
     "reset_at": null,
     "show": {
       "title": "Agatha All Along",
@@ -27,6 +27,16 @@
           {
             "last_watched_at": "2024-10-05T21:55:07.000Z",
             "number": 2,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-10-08T21:27:55.000Z",
+            "number": 3,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-10-08T21:27:58.000Z",
+            "number": 4,
             "plays": 1
           }
         ],
