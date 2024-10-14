@@ -1,8 +1,8 @@
 [
   {
-    "plays": 5,
-    "last_watched_at": "2024-10-14T16:15:57.000Z",
-    "last_updated_at": "2024-10-14T16:15:58.000Z",
+    "plays": 6,
+    "last_watched_at": "2024-10-14T16:43:58.000Z",
+    "last_updated_at": "2024-10-14T16:43:59.000Z",
     "reset_at": null,
     "show": {
       "title": "Shōgun",
@@ -42,6 +42,11 @@
           {
             "last_watched_at": "2024-10-14T16:15:57.000Z",
             "number": 5,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-10-14T16:43:58.000Z",
+            "number": 6,
             "plays": 1
           }
         ],
