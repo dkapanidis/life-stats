@@ -1,5 +1,190 @@
 [
   {
+    "plays": 30,
+    "last_watched_at": "2024-10-21T01:09:04.000Z",
+    "last_updated_at": "2024-10-21T01:09:04.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "The Lincoln Lawyer",
+      "year": 2022,
+      "ids": {
+        "trakt": 172130,
+        "slug": "the-lincoln-lawyer",
+        "imdb": "tt13833978",
+        "tmdb": 116799,
+        "tvdb": 399909,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "episodes": [
+          {
+            "last_watched_at": "2024-08-26T12:52:19.000Z",
+            "number": 1,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-08-26T12:52:19.000Z",
+            "number": 2,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-08-26T12:52:19.000Z",
+            "number": 3,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-08-26T12:52:19.000Z",
+            "number": 4,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-08-26T12:52:19.000Z",
+            "number": 5,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-08-26T12:52:19.000Z",
+            "number": 6,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-08-26T12:52:19.000Z",
+            "number": 7,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-08-26T12:52:19.000Z",
+            "number": 8,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-08-26T12:52:19.000Z",
+            "number": 9,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-08-26T12:52:19.000Z",
+            "number": 10,
+            "plays": 1
+          }
+        ],
+        "number": 1
+      },
+      {
+        "episodes": [
+          {
+            "last_watched_at": "2024-08-26T12:52:21.000Z",
+            "number": 1,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-08-26T12:52:21.000Z",
+            "number": 2,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-08-26T12:52:21.000Z",
+            "number": 3,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-08-26T12:52:21.000Z",
+            "number": 4,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-08-26T12:52:21.000Z",
+            "number": 5,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-08-26T12:52:21.000Z",
+            "number": 6,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-08-26T12:52:21.000Z",
+            "number": 7,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-08-26T12:52:21.000Z",
+            "number": 8,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-08-26T12:52:21.000Z",
+            "number": 9,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-08-26T12:52:21.000Z",
+            "number": 10,
+            "plays": 1
+          }
+        ],
+        "number": 2
+      },
+      {
+        "episodes": [
+          {
+            "last_watched_at": "2024-10-21T01:08:23.000Z",
+            "number": 1,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-10-21T01:08:25.000Z",
+            "number": 2,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-10-21T01:08:27.000Z",
+            "number": 3,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-10-21T01:08:29.000Z",
+            "number": 4,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-10-21T01:08:31.000Z",
+            "number": 5,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-10-21T01:08:33.000Z",
+            "number": 6,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-10-21T01:08:35.000Z",
+            "number": 7,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-10-21T01:08:37.000Z",
+            "number": 8,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-10-21T01:09:01.000Z",
+            "number": 9,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-10-21T01:09:04.000Z",
+            "number": 10,
+            "plays": 1
+          }
+        ],
+        "number": 3
+      }
+    ]
+  },
+  {
     "plays": 9,
     "last_watched_at": "2024-10-18T08:47:20.000Z",
     "last_updated_at": "2024-10-18T08:47:21.000Z",
@@ -936,136 +1121,6 @@
           }
         ],
         "number": 1
-      }
-    ]
-  },
-  {
-    "plays": 20,
-    "last_watched_at": "2024-08-26T12:52:21.000Z",
-    "last_updated_at": "2024-08-26T12:52:22.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "The Lincoln Lawyer",
-      "year": 2022,
-      "ids": {
-        "trakt": 172130,
-        "slug": "the-lincoln-lawyer",
-        "imdb": "tt13833978",
-        "tmdb": 116799,
-        "tvdb": 399909,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "episodes": [
-          {
-            "last_watched_at": "2024-08-26T12:52:19.000Z",
-            "number": 1,
-            "plays": 1
-          },
-          {
-            "last_watched_at": "2024-08-26T12:52:19.000Z",
-            "number": 2,
-            "plays": 1
-          },
-          {
-            "last_watched_at": "2024-08-26T12:52:19.000Z",
-            "number": 3,
-            "plays": 1
-          },
-          {
-            "last_watched_at": "2024-08-26T12:52:19.000Z",
-            "number": 4,
-            "plays": 1
-          },
-          {
-            "last_watched_at": "2024-08-26T12:52:19.000Z",
-            "number": 5,
-            "plays": 1
-          },
-          {
-            "last_watched_at": "2024-08-26T12:52:19.000Z",
-            "number": 6,
-            "plays": 1
-          },
-          {
-            "last_watched_at": "2024-08-26T12:52:19.000Z",
-            "number": 7,
-            "plays": 1
-          },
-          {
-            "last_watched_at": "2024-08-26T12:52:19.000Z",
-            "number": 8,
-            "plays": 1
-          },
-          {
-            "last_watched_at": "2024-08-26T12:52:19.000Z",
-            "number": 9,
-            "plays": 1
-          },
-          {
-            "last_watched_at": "2024-08-26T12:52:19.000Z",
-            "number": 10,
-            "plays": 1
-          }
-        ],
-        "number": 1
-      },
-      {
-        "episodes": [
-          {
-            "last_watched_at": "2024-08-26T12:52:21.000Z",
-            "number": 1,
-            "plays": 1
-          },
-          {
-            "last_watched_at": "2024-08-26T12:52:21.000Z",
-            "number": 2,
-            "plays": 1
-          },
-          {
-            "last_watched_at": "2024-08-26T12:52:21.000Z",
-            "number": 3,
-            "plays": 1
-          },
-          {
-            "last_watched_at": "2024-08-26T12:52:21.000Z",
-            "number": 4,
-            "plays": 1
-          },
-          {
-            "last_watched_at": "2024-08-26T12:52:21.000Z",
-            "number": 5,
-            "plays": 1
-          },
-          {
-            "last_watched_at": "2024-08-26T12:52:21.000Z",
-            "number": 6,
-            "plays": 1
-          },
-          {
-            "last_watched_at": "2024-08-26T12:52:21.000Z",
-            "number": 7,
-            "plays": 1
-          },
-          {
-            "last_watched_at": "2024-08-26T12:52:21.000Z",
-            "number": 8,
-            "plays": 1
-          },
-          {
-            "last_watched_at": "2024-08-26T12:52:21.000Z",
-            "number": 9,
-            "plays": 1
-          },
-          {
-            "last_watched_at": "2024-08-26T12:52:21.000Z",
-            "number": 10,
-            "plays": 1
-          }
-        ],
-        "number": 2
       }
     ]
   },
