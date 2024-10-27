@@ -1,5 +1,60 @@
 [
   {
+    "plays": 6,
+    "last_watched_at": "2024-10-27T14:49:05.000Z",
+    "last_updated_at": "2024-10-27T14:49:06.000Z",
+    "reset_at": null,
+    "show": {
+      "title": "Agatha All Along",
+      "year": 2024,
+      "ids": {
+        "trakt": 191186,
+        "slug": "agatha-all-along",
+        "imdb": "tt15571732",
+        "tmdb": 138501,
+        "tvdb": 412429,
+        "tvrage": null
+      }
+    },
+    "seasons": [
+      {
+        "episodes": [
+          {
+            "last_watched_at": "2024-10-05T21:54:55.000Z",
+            "number": 1,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-10-05T21:55:07.000Z",
+            "number": 2,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-10-08T21:27:55.000Z",
+            "number": 3,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-10-08T21:27:58.000Z",
+            "number": 4,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-10-12T00:37:42.000Z",
+            "number": 5,
+            "plays": 1
+          },
+          {
+            "last_watched_at": "2024-10-27T14:49:05.000Z",
+            "number": 6,
+            "plays": 1
+          }
+        ],
+        "number": 1
+      }
+    ]
+  },
+  {
     "plays": 10,
     "last_watched_at": "2024-10-22T23:21:14.000Z",
     "last_updated_at": "2024-10-22T23:21:14.000Z",
@@ -332,56 +387,6 @@
           {
             "last_watched_at": "2024-10-16T10:56:45.000Z",
             "number": 10,
-            "plays": 1
-          }
-        ],
-        "number": 1
-      }
-    ]
-  },
-  {
-    "plays": 5,
-    "last_watched_at": "2024-10-12T00:37:42.000Z",
-    "last_updated_at": "2024-10-12T00:37:44.000Z",
-    "reset_at": null,
-    "show": {
-      "title": "Agatha All Along",
-      "year": 2024,
-      "ids": {
-        "trakt": 191186,
-        "slug": "agatha-all-along",
-        "imdb": "tt15571732",
-        "tmdb": 138501,
-        "tvdb": 412429,
-        "tvrage": null
-      }
-    },
-    "seasons": [
-      {
-        "episodes": [
-          {
-            "last_watched_at": "2024-10-05T21:54:55.000Z",
-            "number": 1,
-            "plays": 1
-          },
-          {
-            "last_watched_at": "2024-10-05T21:55:07.000Z",
-            "number": 2,
-            "plays": 1
-          },
-          {
-            "last_watched_at": "2024-10-08T21:27:55.000Z",
-            "number": 3,
-            "plays": 1
-          },
-          {
-            "last_watched_at": "2024-10-08T21:27:58.000Z",
-            "number": 4,
-            "plays": 1
-          },
-          {
-            "last_watched_at": "2024-10-12T00:37:42.000Z",
-            "number": 5,
             "plays": 1
           }
         ],
