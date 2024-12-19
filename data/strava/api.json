@@ -1,5 +1,64 @@
 [
   {
+    "achievement_count": 1,
+    "athlete": {
+      "id": 118222457,
+      "resource_state": 1
+    },
+    "athlete_count": 1,
+    "average_speed": 2.246,
+    "comment_count": 0,
+    "commute": false,
+    "display_hide_heartrate_option": true,
+    "distance": 8107.8,
+    "elapsed_time": 3625,
+    "end_latlng": [
+      19.524777,
+      -96.886535
+    ],
+    "external_id": "1636405347550269700.tcx",
+    "flagged": false,
+    "from_accepted_tag": false,
+    "gear_id": "",
+    "has_heartrate": true,
+    "has_kudoed": false,
+    "heartrate_opt_out": false,
+    "id": 13151182679,
+    "kudos_count": 0,
+    "location_city": "",
+    "location_country": "",
+    "location_state": "",
+    "manual": false,
+    "map": {
+      "id": "a13151182679",
+      "resource_state": 2,
+      "summary_polyline": "_edvBjbjnQXOJ@RGh@]LQDYDE?m@aAaACUFMECBKWU?GGGCMKGWk@DYEGJMEG?OFi@AOIQKI[DILUGcAEGBELFb@CNFH@XN^CBHZBhAEv@@RY~@UROZc@Zi@n@SLEJ?D\\HRCNFRENBJEFBf@Sd@Bb@WXB?FDCDBBCDBNADC@IJ@f@MPAJKTKLa@@QEG@UEEDIiAu@CQA[HKAC[i@OMO_@@]GICKDC?UN_@AUEO]UQ@MJm@Em@@C@CN@\\Hv@Lb@@RJTCjA@RGj@Uh@@FMJAFg@n@YN[ZOVOHARLLL?^MZJRI^@jAIl@WDFTBNIDI`@ETMVATWJCEKDCGM?GDCCQ@Y]Mi@k@KWBQJIQUAWW[AOBGOICIBg@C[DE@QKg@UECE[J]EaA?EJ?ZLx@FZFJ?HHV?l@CRB`@Ef@Y~@OJERyB|BHLr@DzAI~@STHn@AJEJUfASBGTIHDFe@ESBE?YCQI?AIc@]UGEOAWB?FS_@i@AIGI?MSQHo@GSBa@FGCk@a@Qc@J{AAGL@\\Lz@Vt@F|@KrAWlAURGNSHo@z@[VAF?CMHAJXLZK`@BNEPDn@Eh@Mj@VJAJa@TCDD@GFCN@f@SVCHDFABMBKCMD?KYDCAi@KM_@U]e@AS@MLIAEUSIO@EKMAIOS?SBIEMBGAEDEGGBo@AQIUKIMAM?g@J}@CEBCNBn@Hb@DFPjACb@D\\ER?v@Ub@CTSJU^m@b@M^_@f@G@@DTJ`@I`@BxAWV?TGBHHBFJREBYF@NMDB`@CHIVIVHHCBGD@AWDA?MEULe@GWK?}@y@EMBSJIGCGUQWGCKc@KMB]CKDKCc@BE?QDA@Q]]g@Ly@Cg@BCBBPAPL|@L^JbAEtBEPSZ?NSPKZ]VOFSXi@`@?N\\Jp@I^FvASXSJPJ@DIHADKj@?PCFIz@IHICE@EFEJ@DIMQ@o@CKYWMCc@i@EYLQ[e@?IKMCKMMA_@MS?EHOCKDUFMCGBIMU?IGEq@LuAAEBGVFDBPDt@L^@d@HVEXB\\Av@Yp@BTKBO\\a@Vm@v@[PKRRJVA\\BjCUb@ADD@EFBFOFCD@JGRDb@[R?JKRAFG?UDOAIBKAa@UKe@_@EKEODO@WOSESKG?IKC?GIIAMIS@QEKFSCKFk@FQOOQIMA_@LsACIHNzAJLD|@DD?vAEj@MVDFMf@IFU^SN"
+    },
+    "max_speed": 3.26,
+    "moving_time": 3610,
+    "name": "Afternoon Run",
+    "photo_count": 0,
+    "pr_count": 0,
+    "private": false,
+    "resource_state": 2,
+    "sport_type": "Run",
+    "start_date": "2024-12-19T20:00:23Z",
+    "start_date_local": "2024-12-19T14:00:23Z",
+    "start_latlng": [
+      19.524767,
+      -96.886417
+    ],
+    "timezone": "(GMT-06:00) America/Mexico_City",
+    "total_elevation_gain": 63.7,
+    "total_photo_count": 0,
+    "trainer": false,
+    "type": "Run",
+    "upload_id": 14024608333,
+    "utc_offset": -21600,
+    "visibility": "everyone",
+    "workout_type": 0
+  },
+  {
     "achievement_count": 0,
     "athlete": {
       "id": 118222457,
@@ -1670,65 +1729,6 @@
     "trainer": false,
     "type": "Run",
     "upload_id": 12618193527,
-    "utc_offset": 7200,
-    "visibility": "everyone",
-    "workout_type": 0
-  },
-  {
-    "achievement_count": 0,
-    "athlete": {
-      "id": 118222457,
-      "resource_state": 1
-    },
-    "athlete_count": 1,
-    "average_speed": 2.716,
-    "comment_count": 0,
-    "commute": false,
-    "display_hide_heartrate_option": true,
-    "distance": 4096.3,
-    "elapsed_time": 1946,
-    "end_latlng": [
-      41.3959365064869,
-      2.1737780425663717
-    ],
-    "external_id": "64536496874.tcx",
-    "flagged": false,
-    "from_accepted_tag": false,
-    "gear_id": "",
-    "has_heartrate": true,
-    "has_kudoed": false,
-    "heartrate_opt_out": false,
-    "id": 11815863176,
-    "kudos_count": 0,
-    "location_city": "",
-    "location_country": "",
-    "location_state": "",
-    "manual": false,
-    "map": {
-      "id": "a11815863176",
-      "resource_state": 2,
-      "summary_polyline": "{wu{F}oeL`@[h@U^YB?BBzCgCJWFWGcBZSd@g@~BaDH[d@m@t@q@b@o@fAiAb@w@z@oARg@z@eATg@Ng@R]h@_@f@Ol@e@HC@FEFE?AAHKGDABzDgFl@}@LYGFp@e@VSRa@IU?KONIDLSJi@Pe@h@y@`C_CJORk@d@_@n@m@`@u@`@uAd@{@ZSb@Gp@?n@TF?HIN[Lc@KcAAk@DS^k@NOj@WPY`@c@BEUVE@BIf@cANa@Be@Mw@AW@UHUn@y@VKr@ONI@WFSPQl@a@R]Xu@l@c@X]LWTu@N[h@i@XQLCDFANK^GJK?KOIBMPE@?JBF?TKx@?BB?@@?TEBEAMJe@P{@DIDKH_@l@s@v@[f@IXBl@CREH@@eHxJmDjAhAnAJT@CDa@qFzH"
-    },
-    "max_speed": 5.336,
-    "moving_time": 1508,
-    "name": "Evening Run",
-    "photo_count": 0,
-    "pr_count": 0,
-    "private": false,
-    "resource_state": 2,
-    "sport_type": "Run",
-    "start_date": "2024-07-05T16:37:58Z",
-    "start_date_local": "2024-07-05T18:37:58Z",
-    "start_latlng": [
-      41.4043007540204,
-      2.1633526631978244
-    ],
-    "timezone": "(GMT+01:00) Europe/Madrid",
-    "total_elevation_gain": 14.2,
-    "total_photo_count": 0,
-    "trainer": false,
-    "type": "Run",
-    "upload_id": 12602189898,
     "utc_offset": 7200,
     "visibility": "everyone",
     "workout_type": 0
